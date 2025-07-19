@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Welcome</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    header, nav, main, footer {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin: 5px;
+    }
+    nav a {
+      margin-right: 15px;
+    }
+    nav a:hover {
+      color: green;
+    }
+    nav a:visited {
+      color: purple;
+    }
+    nav a:active {
+      color: red;
+    }
+    .flex-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .box {
+      border: 2px solid black;
+      padding: 20px;
+      margin: 10px;
+      width: 30%;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Hotel</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="about.html">About</a>
+    <a href="help.html">Help</a>
+    <a href="images.html">Gallery</a>
+  </nav>
+  <main class="flex-container">
+    <div class="box">
+      <h2>Our Rooms</h2>
+      <p>Enjoy luxurious rooms with sea views and 24/7 room service.</p>
+    </div>
+    <div class="box">
+      <h2>Delicious Food</h2>
+      <p>We serve top-class meals with fresh ingredients.</p>
+    </div>
+    <div class="box">
+      <h2>Location</h2>
+      <p>Located in the heart of the city, easy to reach anywhere.</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Hotel Booking Project</p>
+  </footer>
+</body>
+</html>
